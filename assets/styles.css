@@ -1,0 +1,251 @@
+html,body{
+  font-size: 15px;
+}
+
+body{
+  padding-top: 6rem;
+  font-family: 'Rokkitt', serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Rokkitt', serif;
+}
+
+figcaption{
+  font-size: .8rem;
+  font-style: italic;
+}
+
+/*bootstrap overrides*/
+.navbar{
+  height: 5rem;
+  padding-top: .8rem;
+}
+
+.navbar a{
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.navbar-inverse{
+  background: #594141;
+  border-bottom: 0;
+}
+
+.navbar-brand{
+  color: #D2721E !important;
+  text-transform: none;
+}
+
+.form-control{
+  color: #6e7466;
+  box-shadow: none;
+}
+
+.modal-dialog{
+  max-width: 400px;
+}
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*buttons*/
+
+.btn{
+  background: #CBCEC7;
+  border: 0;
+  border-bottom: 2px solid #999e91;
+  box-shadow: 0 1px 0 #999e91;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.btn-fork{
+  background-color: #D2721E;
+  border-bottom: 2px solid #a55a18;
+  box-shadow: 0 1px 0 #a55a18;
+  color: #fff;
+}
+
+/*search*/
+.search-form{
+  margin-top: .5rem;
+  margin-right: 1rem;
+}
+
+.search-form .form-control{
+  border: 1px solid #fff;
+}
+
+.search-form .input-group-addon{
+  background: none;
+}
+
+.search-form i{
+  color: #fff;
+}
+
+/*recipe*/
+
+.recipe{
+  font-size: 1.2rem;
+}
+
+.recipe h2, .recipe h3{
+  margin-top: 0;
+  text-transform: uppercase;
+  color: #CBCEC7;
+  letter-spacing: 1px;
+}
+
+.recipe h2{
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 992px){
+  .tools{
+    float: right;
+    padding-top: 2rem;
+  }
+}
+
+.tools .btn{
+  margin-bottom: .5rem;
+}
+
+@media screen and (min-width: 992px){
+  .tools .btn{
+    margin-bottom: 0;
+  }
+
+  .tools .btn-fork{
+    margin-right: 1rem;
+  }
+}
+
+.recipe header{
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 992px){
+  .recipe header{
+    margin-bottom: 0;
+  }
+}
+
+.recipe header h1{
+  font-size: 4rem;
+  color: #D2721E;
+}
+
+.meta-details{
+  display: table;
+  width: 100%;
+  margin: 2rem 0;
+  padding: 0;
+  list-style: none;
+}
+
+.meta-details li{
+  display: table-row;
+}
+
+.meta-label{
+  display: table-cell;
+  width: 25%;
+  font-family: 'Rokkitt', serif;
+  font-weight: 700;
+}
+
+.meta-value{
+  display: table-cell;
+  width: 75%;
+}
+
+.meta-value.cookbook{
+  font-style: italic;
+}
+
+.variations{
+  padding: 0;
+  list-style: none;
+}
+
+.variations li{
+  display: inline-block;
+  margin: 0 .5rem .5rem;
+  text-align: center;
+}
+
+.variation-count{
+  display: block;
+  width: 4rem;
+  height: 4rem;
+  margin: auto;
+  line-height: 4rem;
+  border-radius: 50%;
+  background-color: #CBCEC7;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.variation-count.spicy{
+  background-color: #FF9D90;
+}
+
+.variation-count.regional{
+  background-color: #FFDB96;
+}
+
+.variation-count.vegetarian{
+  background-color: #D0F2BF;
+}
+
+.description{
+  font-size: 1.4rem;
+}
+
+.ingredients{
+  padding: 0;
+  list-style: none;
+}
+
+.steps{
+  padding-left: 1.5rem;
+}
+
+
+/*recipe form*/
+
+.ingredient-group{
+  padding-bottom: 1.5rem;
+}
+
+.recipe-item-controls{
+  margin-top: .5rem;
+}
+
+.recipe-item-delete{
+  color: red;
+  font-size: 1.5rem !important;
+}
+
+.recipe-item-add{
+  color: green;
+  font-size: 1.5rem !important;
+}
+
+.recipe-author{
+  line-height: 1.1;
+}
+
+
+/*footer*/
+.site-footer{
+  margin-top: 2rem;
+  padding: 3rem 0;
+  background: #CBCEC7;
+}
